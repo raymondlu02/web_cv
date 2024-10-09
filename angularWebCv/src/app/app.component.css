@@ -1,0 +1,11 @@
+.main {
+    height: 100vh; /* Hauteur de la page */
+    background: black;
+}
+
+
+.content {
+    display: flex;
+    align-content: center;
+}
+
