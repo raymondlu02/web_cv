@@ -1,11 +1,20 @@
 .main {
     height: 100vh; /* Hauteur de la page */
-    background: black;
+    background-image: url('./assets/icons.png'); /* Chemin vers votre image */
+
 }
 
-
-.content {
-    display: flex;
-    align-content: center;
+.btn {
+    background: green;
 }
 
+.background-image {
+    background-image: url('./assets/icons.png'); /* Chemin vers votre image */
+    background-position: center; /* Centrer l'image */
+    height: 100%; /* Hauteur de l'élément */
+    display: flex; /* Flexbox pour centrer le contenu */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    color: white; /* Couleur du texte */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombre du texte pour le contraste */
+}
