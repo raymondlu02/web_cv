@@ -1,0 +1,13 @@
+.content {
+    background-image: url('../../assets/icons.png'); /* Chemin vers l'image */
+    background-size: cover; /* Couvre l'écran */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    height: 90vh; /* Hauteur de la vue, remplit l'écran */
+    width: 100vw; /* Largeur de la vue, remplit l'écran */
+}
+
+.btn {
+    background: green;
+}
+

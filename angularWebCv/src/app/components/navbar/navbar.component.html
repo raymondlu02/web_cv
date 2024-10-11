@@ -1,25 +1,31 @@
 <!-- A grey horizontal navbar that becomes vertical on small screens -->
 <nav class="navbar navbar-expand-sm">
-  <a class="nav-link home-button" href="#">Home</a>
+  <a class="nav-link home-button" routerLink="/home">Home</a>
   <div class="container-fluid">
     <!-- Links -->
     <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/about">About me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/project">Project</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/skills">Compétences</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contact">Contact</a>
+      </li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="#">Project</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Github</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">LinkedIn</a>
-      </li>
     </ul>
+    <div class="dropdown m-sm-5">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Langage
+      </button>
+      <ul class="dropdown-menu " aria-labelledby="Langage">
+        <li><a class="dropdown-item" href="#">Francais</a></li>
+        <li><a class="dropdown-item" href="#">Anglais</a></li>
+      </ul>
+    </div>
   </div>
 </nav>

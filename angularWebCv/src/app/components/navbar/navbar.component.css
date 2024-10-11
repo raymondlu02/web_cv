@@ -1,5 +1,6 @@
 .navbar {
     background: black;
+    height: 10vh;
 }
 
 .container-fluid {
@@ -14,4 +15,8 @@
 
 .nav-link {
     color: white;
+}
+
+.nav-item {
+    margin : 0 5px 0 5px
 }
