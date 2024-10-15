@@ -1,9 +1,14 @@
 <div class="contact-container d-flex align-items-center justify-content-center">
-  <div class=" w-75 h-75 border border-dark rounded-5">
-    <div class="p-4 d-flex flex-column align-items-center justify-content-center">
+  <div class="w-75 border border-dark rounded-5">
+    <div class="p-4">
+      <div class="d-flex justify-content-between w-100 mb-4">
+        <h4 class="mx-auto">Contact</h4>
+        <a class="ml-auto" href="https://fr.linkedin.com/in/raymond-lu1999" target="_blank">
+          <img width="48" height="48" ngSrc="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/>        </a>
+      </div>
       <div class="form-element">
-        <label for="name" class="form-label col-sm-2 ">Nom</label>
-        <input type="text" class="form-control col-sm-10" id="name" placeholder="NOM">
+        <label for="name" class="form-label">Nom</label>
+        <input type="text" class="form-control" id="name" placeholder="NOM">
       </div>
       <div class="form-element">
         <label for="prenom" class="form-label">Prénom</label>
@@ -14,12 +19,15 @@
         <input type="text" class="form-control" id="telephone" placeholder="06 06 06 06 06">
       </div>
       <div class="form-element">
-        <label for="emailaddress" class="form-label">Email address</label>
+        <label for="emailaddress" class="form-label">Adresse email</label>
         <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
       </div>
       <div class="form-element">
-        <label for= "message" class="form-label">Message</label>
+        <label for="message" class="form-label">Message</label>
         <textarea class="form-control" id="message" rows="4"></textarea>
+      </div>
+      <div class="d-flex justify-content-end w-100">
+        <button type="button" class="btn btn-outline-primary">Envoyer</button>
       </div>
     </div>
   </div>
