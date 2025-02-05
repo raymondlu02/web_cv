@@ -3,13 +3,12 @@ import {NgOptimizedImage} from "@angular/common";
 import {HttpClient} from "@angular/common/http";
 
 @Component({
-  selector: 'app-skills',
-  standalone: true,
-  imports: [
-    NgOptimizedImage,
-  ],
-  templateUrl: './skills.component.html',
-  styleUrl: './skills.component.css',
+    selector: 'app-skills',
+    imports: [
+        NgOptimizedImage,
+    ],
+    templateUrl: './skills.component.html',
+    styleUrl: './skills.component.css'
 })
 export class SkillsComponent {
   constructor(private http: HttpClient) {
