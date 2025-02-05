@@ -8,9 +8,12 @@ import { TableModule } from 'primeng/table';
   standalone: true,
   templateUrl: './todolist.component.html',
   styleUrl: './todolist.component.scss',
+  imports: [
+    TableModule
+  ]
 })
 export class TodolistComponent implements OnInit {
-  jsonPlaceholder : Post[] | undefined;
+  jsonPlaceholder : Post[] = [];
 
   constructor (private todoService : todoService){}
 

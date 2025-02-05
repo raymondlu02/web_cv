@@ -3,6 +3,7 @@ import {NgOptimizedImage} from "@angular/common";
 
 @Component({
     selector: 'app-contact',
+    standalone: true,
     imports: [
         NgOptimizedImage
     ],

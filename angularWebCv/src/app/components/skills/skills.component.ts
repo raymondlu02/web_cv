@@ -4,6 +4,7 @@ import {HttpClient} from "@angular/common/http";
 
 @Component({
     selector: 'app-skills',
+    standalone: true,
     imports: [
         NgOptimizedImage,
     ],
